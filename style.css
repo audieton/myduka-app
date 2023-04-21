@@ -1,10 +1,8 @@
-nav class{
-    background-color: rgb(128, 207, 207);
-}
-
 div{
-    background-color: rgb(128, 207, 207);
-    font-weight: bolder;
+    background-color: aqua;
     font-family: 'Times New Roman', Times, serif;
-
+    font-size: large;
+    font-weight: bolder;
 }
+
+
