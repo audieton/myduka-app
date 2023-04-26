@@ -7,93 +7,142 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link rel="stylesheet" href="style.css">
     <title>my duka shop</title>
-    <link rel="icon" type="image/x-icon" href="images/icons8-shopping-mall-.png">
+    <link rel="icon" type="image/x-icon" href="static/icons8-shopping-mall-.png">
   </head>
   <body>
-    <section>
-      <div class="container">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">ID</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">B.P</th>
-                  <th scope="col">S.P</th>
-                  <th scope="col">QUANTITY</th>
-                  <th scope="col">CATEGORY</th>
-                  <th scope="col">Sale $</th>
-                  <th scope="col">Edit <img src="images/edit-file--v2.png" alt="edit file--v2 png"></th>
+    <p>
+ <!--The side bar-->
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-4"><div class="flex-wrap">
+      <div class="bg-dark">
+        <header>Nav menu</header>
+        <ul>
+          <li>
+          <a href="#home"><i class="fa fa-fw fa-home">Home</i></a>
+          </li>
+          <li>
+            <a href="#Inventories"><i class="fa fa-fw fa-Inventories">Inventories</i></a>
+          </li>
+<li>
+<a href="#Sales"><i class="fa fa-fw fa-Sales">Sales</i></a>
+</li>
+<li>
+<a href="#Stock"><i class="fa fa-fw fa-Stock">Stock</i></a>
+</li>
+<li>
+<a href="#Users"><i class="fa fa-fw fa-Users">Users</i></a>
+</li>
+         
 
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Bag(Laptop)</td>
-                  <td>2000.0</td>
-                  <td>2500.0</td>
-                  <td>3</td>
-                  <td>product</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Repair</td>
-                  <td>150.0</td>
-                  <td>200.0</td>
-                  <td>1</td>
-                  <td>service</td>
-
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Banana</td>
-                  <td>4.0</td>
-                  <td>6.0</td>
-                  <td>20</td>
-                  <td>product</td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td >Mango</td>
-                  <td>10.0</td>
-                  <td>15.0</td>
-                  <td>3</td>
-                  <td>product</td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td >Silk-Jacket</td>
-                  <td>1000.0</td>
-                  <td>4000.0</td>
-                  <td>40</td>
-                  <td>product</td>
-                </tr>
-                <tr>
-                  <th scope="row">6</th>
-                  <td >test 2 orm</td>
-                  <td>5.0</td>
-                  <td>10.0</td>
-                  <td>1</td>
-                  <td>product</td>
-                </tr>
-                <tr>
-                  <th scope="row">7</th>
-                  <td >Chaket</td>
-                  <td>150.0</td>
-                  <td>500.0</td>
-                  <td>5</td>
-                  <td>product</td>
-                </tr>
-                
-              </tbody>
-            </table>
-          </table></div>
-        </div>
+        </ul>
       </div>
-    </section>
+    </div></div>
+    <div class="col-sm-8">
+      <section>
+        <aside class="container">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">B.P</th>
+                    <th scope="col">S.P</th>
+                    <th scope="col">QUANTITY</th>
+                    <th scope="col">CATEGORY</th>
+                    <th scope="col">Sale $</th>
+                    <th scope="col">Edit <img src="static/edit-file--v2.png" alt="edit file--v2 png"></th>
+                    <th scope="col">Delete <img src="static/delete icon.png" alt="delete-icon-100png"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Bag(Laptop)</td>
+                    <td>2000.0</td>
+                    <td>2500.0</td>
+                    <td>3</td>
+                    <td>product</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Repair</td>
+                    <td>150.0</td>
+                    <td>200.0</td>
+                    <td>1</td>
+                    <td>service</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Banana</td>
+                    <td>4.0</td>
+                    <td>6.0</td>
+                    <td>20</td>
+                    <td>product</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td >Mango</td>
+                    <td>10.0</td>
+                    <td>15.0</td>
+                    <td>3</td>
+                    <td>product</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td >Silk-Jacket</td>
+                    <td>1000.0</td>
+                    <td>4000.0</td>
+                    <td>40</td>
+                    <td>product</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td >test 2 orm</td>
+                    <td>5.0</td>
+                    <td>10.0</td>
+                    <td>1</td>
+                    <td>product</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td >Chaket</td>
+                    <td>150.0</td>
+                    <td>500.0</td>
+                    <td>5</td>
+                    <td>product</td>
+                    <td><img src="static/dollar sign.png" alt=""></td>
+                    <td><img src="static/edit-file--v2.png" alt=""></td>
+                    <td><img src="static/delete icon.png" alt=""></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </table></div>
+          </aside>
+        </div>
+      </section>
+    </p>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
